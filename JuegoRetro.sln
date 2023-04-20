@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuegoRetro", "JuegoRetro\JuegoRetro.csproj", "{3BAD8A2D-1CC2-411E-B1E9-CE652FD89F0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BAD8A2D-1CC2-411E-B1E9-CE652FD89F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BAD8A2D-1CC2-411E-B1E9-CE652FD89F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BAD8A2D-1CC2-411E-B1E9-CE652FD89F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BAD8A2D-1CC2-411E-B1E9-CE652FD89F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F27C7B29-9267-4F1D-8402-97CEEAF10A24}
+	EndGlobalSection
+EndGlobal

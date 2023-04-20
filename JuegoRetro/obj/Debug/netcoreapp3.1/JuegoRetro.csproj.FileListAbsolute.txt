@@ -1,0 +1,14 @@
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\bin\Debug\netcoreapp3.1\JuegoRetro.exe
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\bin\Debug\netcoreapp3.1\JuegoRetro.deps.json
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\bin\Debug\netcoreapp3.1\JuegoRetro.runtimeconfig.json
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\bin\Debug\netcoreapp3.1\JuegoRetro.runtimeconfig.dev.json
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\bin\Debug\netcoreapp3.1\JuegoRetro.dll
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\bin\Debug\netcoreapp3.1\JuegoRetro.pdb
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.csproj.AssemblyReference.cache
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.AssemblyInfoInputs.cache
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.AssemblyInfo.cs
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.csproj.CoreCompileInputs.cache
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.dll
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.pdb
+D:\Users\omarm\source\QuarkAcademy\QGJ #3\JuegoRetro\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.genruntimeconfig.cache
