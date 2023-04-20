@@ -40,10 +40,10 @@ namespace JuegoRetro
                 tecla = Console.ReadKey();
                 MoverJugador(tecla.Key, ref mapaActual);
                 MoverEnemigo(ref mapaActual);
-            } while (tecla.Key != ConsoleKey.Escape && !TeAlzanzoElEnemigo());
+            } while (tecla.Key != ConsoleKey.Escape && !TeAlcanzoElEnemigo());
         }
 
-        private static bool TeAlzanzoElEnemigo()
+        private static bool TeAlcanzoElEnemigo()
         {
             return jugadorPosX == enemigoPosX && jugadorPosY == enemigoPosY;
         }
