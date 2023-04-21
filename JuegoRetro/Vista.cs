@@ -4,14 +4,11 @@ using System.Text;
 
 namespace JuegoRetro
 {
-    internal class Vista
+    public class Vista
     {
-        static void Main(string[] args)
+        public void MostrarMenu()
         {
-            MostrarMenu();
-        }
-        public static void MostrarMenu()
-        {
+            GameLoop gameLoop = new GameLoop();
             int opcion;
             do
             {
@@ -23,7 +20,7 @@ namespace JuegoRetro
                 Console.WriteLine("\n[1] Jugar \n[0] Salir");
             } while (!int.TryParse(Console.ReadLine(), out opcion) || opcion < 0 || opcion > 1);
 
-            if (opcion == 1) GameLoop.IniciarGameLoop();
+            if (opcion == 1) gameLoop.IniciarGameLoop();
         }
     }
 }

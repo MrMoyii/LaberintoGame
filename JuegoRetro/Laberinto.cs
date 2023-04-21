@@ -2,9 +2,9 @@
 
 namespace JuegoRetro
 {
-    public static class Laberinto
+    public class Laberinto
     {
-        private static char[,] mapaLaberinto0 = new char[,]
+        private char[,] mapaLaberinto0 = new char[,]
         {
         {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#' },
         {'#', '#', '.', '.', '.', '.', '.', '.', '.', '.', '#', '#', '#', '#', '#' },
@@ -20,7 +20,7 @@ namespace JuegoRetro
         {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#' }
         };
 
-        private static char[,] mapaLaberinto1 = new char[,]
+        private char[,] mapaLaberinto1 = new char[,]
         {
         {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#' },
         {'#', '#', '.', '.', '.', '.', '.', '.', '.', '.', '#', '#', '#', '#', '#' },
@@ -36,7 +36,7 @@ namespace JuegoRetro
         {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#' }
         };
 
-        private static char[,] mapaLaberinto2 = new char[,]
+        private char[,] mapaLaberinto2 = new char[,]
         {
         {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#' },
         {'#', '#', '.', '#', '.', '.', '.', '.', '.', '.', '#', '#', '#', '#', '#' },
@@ -52,7 +52,7 @@ namespace JuegoRetro
         {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#' }
         };
 
-        public static char[,] DevolverLaberinto(int mapaNumero)
+        public char[,] DevolverLaberinto(int mapaNumero)
         {
             switch (mapaNumero)
             {
@@ -66,11 +66,11 @@ namespace JuegoRetro
                     return mapaLaberinto0;
             }
         }
-        public static char[,] SiguienteNivel(int numeroMapa)
+        public char[,] SiguienteNivel(int numeroMapa)
         {
             return DevolverLaberinto(numeroMapa);
         }
-        public static char[,] CrearPuerta(int numeroMapa)
+        public char[,] CrearPuerta(int numeroMapa)
         {
             char[,] mapa = DevolverLaberinto(numeroMapa);
             mapa[10, 13] = 'K';
