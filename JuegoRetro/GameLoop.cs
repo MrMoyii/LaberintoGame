@@ -14,6 +14,7 @@ namespace JuegoRetro
 
         private int mapaNumero = 0;
         private bool gano = false;
+        int margen = 0;
 
         Laberinto lab = new Laberinto();
         public void IniciarGameLoop()
@@ -78,10 +79,19 @@ namespace JuegoRetro
         }
         private void DibujarLaberinto(char[,] laberinto)
         {
+            Console.Clear();
+            int consoleWidth = Console.WindowWidth;
+            int laberintoWidth = laberinto.GetLength(0);
+
+            // Calcular el margen para centrar el laberinto
+            margen = (consoleWidth - laberintoWidth) / 2;
+
+            // Mostrar el laberinto en la consola con el margen calculado
             for (int i = 0; i < laberinto.GetLength(0); i++)
             {
                 for (int j = 0; j < laberinto.GetLength(1); j++)
                 {
+                    Console.SetCursorPosition(margen + j, i);
                     Console.Write(laberinto[i, j]);
                 }
                 Console.WriteLine();
@@ -104,13 +114,17 @@ namespace JuegoRetro
         }
         private void DibujarJugador()
         {
-            Console.SetCursorPosition(jugadorPosY, jugadorPosX);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.SetCursorPosition(jugadorPosY + margen, jugadorPosX);
             Console.Write('P');
+            Console.ForegroundColor = ConsoleColor.White;
         }
         private void DibujarEnemigo()
         {
-            Console.SetCursorPosition(enemigoPosY, enemigoPosX);
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.SetCursorPosition(enemigoPosY + margen, enemigoPosX);
             Console.Write('E');
+            Console.ForegroundColor = ConsoleColor.White;
         }
         private void MoverJugador(ConsoleKey tecla, ref char[,] laberinto)
         {

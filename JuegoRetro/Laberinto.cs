@@ -72,8 +72,10 @@ namespace JuegoRetro
         }
         public char[,] CrearPuerta(int numeroMapa)
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
             char[,] mapa = DevolverLaberinto(numeroMapa);
             mapa[10, 13] = 'K';
+            Console.ForegroundColor = ConsoleColor.White;
             return mapa;
         }
     }
