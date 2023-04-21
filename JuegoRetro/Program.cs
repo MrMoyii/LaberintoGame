@@ -23,6 +23,8 @@ namespace JuegoRetro
             do
             {
                 Console.Clear();
+                if (mapaNumero > 2) break;
+
                 DibujarLaberinto(mapaActual);
                 ImprimirPuntos(mapaActual);
 
@@ -36,7 +38,6 @@ namespace JuegoRetro
                     MoverJugador(tecla.Key, ref mapaActual);
                     MoverEnemigo(ref mapaActual);
                 }
-
             } while (tecla.Key != ConsoleKey.Escape && !alcanzado);
         }
 
@@ -51,7 +52,6 @@ namespace JuegoRetro
                 DibujarPuerta();
             }
         }
-
         static bool TeAlcanzoElEnemigo()
         {
             return jugadorPosX == enemigoPosX && jugadorPosY == enemigoPosY;
