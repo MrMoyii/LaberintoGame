@@ -4,7 +4,7 @@ using System.Threading;
 
 namespace JuegoRetro
 {
-    public class Program
+    public static class GameLoop
     {
         static int jugadorPosX = 1;
         static int jugadorPosY = 1;
@@ -13,7 +13,7 @@ namespace JuegoRetro
         static int enemigoPosY = 6;
 
         static int mapaNumero = 0;
-        static void Main()
+        public static void IniciarGameLoop()
         {
             
             char[,] mapaActual = Laberinto.DevolverLaberinto(mapaNumero);
