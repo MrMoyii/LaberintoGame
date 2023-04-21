@@ -10,7 +10,7 @@ namespace JuegoRetro
         {
             MostrarMenu();
         }
-        private static void MostrarMenu()
+        public static void MostrarMenu()
         {
             int opcion;
             do
