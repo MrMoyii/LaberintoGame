@@ -13,6 +13,8 @@ namespace JuegoRetro
         static int enemigoPosY = 6;
 
         static int mapaNumero = 0;
+        static bool gano = false;
+
         public static void IniciarGameLoop()
         {
             
@@ -22,9 +24,13 @@ namespace JuegoRetro
             ConsoleKeyInfo tecla = new ConsoleKeyInfo();
             do
             {
+                if (mapaNumero > 2) 
+                {
+                    gano = true;
+                    break;
+                }
+                
                 Console.Clear();
-                if (mapaNumero > 2) break;
-
                 DibujarLaberinto(mapaActual);
                 ImprimirPuntos(mapaActual);
 
@@ -39,6 +45,16 @@ namespace JuegoRetro
                     MoverEnemigo(ref mapaActual);
                 }
             } while (tecla.Key != ConsoleKey.Escape && !alcanzado);
+
+            if (gano)
+            {
+                //Terminar
+                //-- o podria hacer que el gameLoop retorne un bool que siga si gano o no --//
+            }
+            else
+            {
+                Vista.MostrarMenu();
+            }
         }
 
         static void ImprimirPuntos(char[,] mapaActual)
