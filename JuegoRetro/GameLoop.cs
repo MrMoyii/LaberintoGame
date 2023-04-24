@@ -16,56 +16,55 @@ namespace JuegoRetro
         private bool gano = false;
         int margen = 0;
 
+        private static int vidas = 3;
+
         Laberinto lab = new Laberinto();
-        public void IniciarGameLoop()
+        public int IniciarGameLoop()
         {
             char[,] mapaActual = lab.DevolverLaberinto(mapaNumero);
-            bool alcanzado;
 
             ConsoleKeyInfo tecla = new ConsoleKeyInfo();
             do
             {
-                if (mapaNumero > 2) 
+                if (mapaNumero > 0)
                 {
                     gano = true;
                     break;
                 }
-                
+                if (vidas < 1)
+                {
+                    gano = false;
+                    break;
+                }
                 Console.Clear();
+                Console.CursorVisible = false;
                 DibujarLaberinto(mapaActual);
-                ImprimirPuntos(mapaActual);
+                MostrarInfo(mapaActual);
 
                 DibujarJugador();
                 DibujarEnemigo();
 
-                alcanzado = TeAlcanzoElEnemigo();
-                if (!alcanzado)
-                {
-                    tecla = Console.ReadKey();
-                    MoverJugador(tecla.Key, ref mapaActual);
-                    MoverEnemigo(ref mapaActual);
-                }
-            } while (tecla.Key != ConsoleKey.Escape && !alcanzado);
+                tecla = Console.ReadKey();
+                MoverJugador(tecla.Key, ref mapaActual);
+                MoverEnemigo(ref mapaActual);
+            } while (tecla.Key != ConsoleKey.Escape);
 
             if (gano)
             {
-                //Terminar
-                //-- o podria hacer que el gameLoop retorne un bool que siga si gano o no --//
+                Console.Clear();
+                Console.WriteLine($"¡Ganaste!");
+                Console.ReadKey();
+                Console.Clear();
+                return 1;
             }
             else
-            {
-                Console.Clear();
-                Console.WriteLine("Creo que te han atrapado, inténtalo de nuevo!");
-                Console.ReadKey();
-                Vista v = new Vista();
-                v.MostrarMenu();
-            }
+                return 0;
         }
-
-        private void ImprimirPuntos(char[,] mapaActual)
+        private void MostrarInfo(char[,] mapaActual)
         {
             //puntos restantes:
             int cantPuntos = CantidadDePuntos(mapaActual);
+            Console.WriteLine($"Vidas: {vidas}");
             Console.WriteLine($"Mapa N°: {mapaNumero + 1}");
             Console.WriteLine($"Cantidad de puntos restantes: {cantPuntos}");
             if (cantPuntos <= 1)
@@ -146,7 +145,17 @@ namespace JuegoRetro
                     nuevaPosY++;
                     break;
             }
+            if (TeAlcanzoElEnemigo())
+            {
+                vidas--;
+                jugadorPosX = 1;
+                jugadorPosY = 1;
 
+                enemigoPosX = 6;
+                enemigoPosY = 6;
+
+                IniciarGameLoop();
+            }
             if (laberinto[nuevaPosX, nuevaPosY] != '#')
             {
                 laberinto[jugadorPosX, jugadorPosY] = ' ';
