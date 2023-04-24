@@ -26,7 +26,7 @@ namespace JuegoRetro
             ConsoleKeyInfo tecla = new ConsoleKeyInfo();
             do
             {
-                if (mapaNumero > 0)
+                if (mapaNumero > 2)
                 {
                     gano = true;
                     break;
