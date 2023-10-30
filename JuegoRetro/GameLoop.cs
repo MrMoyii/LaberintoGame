@@ -64,9 +64,10 @@ namespace JuegoRetro
         {
             //puntos restantes:
             int cantPuntos = CantidadDePuntos(mapaActual);
-            Console.WriteLine($"Vidas: {vidas}");
-            Console.WriteLine($"Mapa N°: {mapaNumero + 1}");
-            Console.WriteLine($"Cantidad de puntos restantes: {cantPuntos}");
+            Console.WriteLine();
+            Console.WriteLine($"\t\t\t\t\tVidas: {vidas}");
+            Console.WriteLine($"\t\t\t\t\tMapa N°: {mapaNumero + 1}");
+            Console.WriteLine($"\t\t\t\t\tCantidad de puntos restantes: {cantPuntos}");
             if (cantPuntos <= 1)
             {
                 DibujarPuerta();

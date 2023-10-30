@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ulhf3HzqMtosTBkkzcCWymR7pSKblNAlf6AKVmvvhHDUrvC8sIU9WQvryzd8o6AvnVLWFW8cdbxA+/sSdBJXPQ==",
+  "dgSpecHash": "fRRDWV9KNK5Q1iysq299zBD+UR/Nn9LTp87TIAKqcyCTmNk3CNkf9rgtJbbMLjWH3DOalDF9ixxg6Ro8/kQbpg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\omarm\\source\\QuarkAcademy\\QGJ #3\\LaberintoGame\\JuegoRetro\\JuegoRetro.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\omarm\\Desktop\\New folder (3)\\LaberintoGame\\JuegoRetro\\JuegoRetro.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\omarm\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\omarm\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\omarm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\omarm\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }

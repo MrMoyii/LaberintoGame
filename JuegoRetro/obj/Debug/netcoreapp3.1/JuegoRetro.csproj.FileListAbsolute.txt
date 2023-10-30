@@ -26,3 +26,17 @@ D:\Users\omarm\source\QuarkAcademy\QGJ #3\LaberintoGame\JuegoRetro\obj\Debug\net
 D:\Users\omarm\source\QuarkAcademy\QGJ #3\LaberintoGame\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.dll
 D:\Users\omarm\source\QuarkAcademy\QGJ #3\LaberintoGame\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.pdb
 D:\Users\omarm\source\QuarkAcademy\QGJ #3\LaberintoGame\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.genruntimeconfig.cache
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\bin\Debug\netcoreapp3.1\JuegoRetro.exe
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\bin\Debug\netcoreapp3.1\JuegoRetro.deps.json
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\bin\Debug\netcoreapp3.1\JuegoRetro.runtimeconfig.json
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\bin\Debug\netcoreapp3.1\JuegoRetro.runtimeconfig.dev.json
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\bin\Debug\netcoreapp3.1\JuegoRetro.dll
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\bin\Debug\netcoreapp3.1\JuegoRetro.pdb
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.csproj.AssemblyReference.cache
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.AssemblyInfoInputs.cache
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.AssemblyInfo.cs
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.csproj.CoreCompileInputs.cache
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.dll
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.pdb
+C:\Users\omarm\Desktop\New folder (3)\LaberintoGame\JuegoRetro\obj\Debug\netcoreapp3.1\JuegoRetro.genruntimeconfig.cache
